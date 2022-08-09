@@ -13,6 +13,22 @@
 		DE27CCF328A08FE300E17AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE27CCF128A08FE300E17AE8 /* Main.storyboard */; };
 		DE27CCF528A08FE400E17AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE27CCF428A08FE400E17AE8 /* Assets.xcassets */; };
 		DE27CCF828A08FE400E17AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE27CCF628A08FE400E17AE8 /* LaunchScreen.storyboard */; };
+		DE27CD0128A0902100E17AE8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DE27CD0028A0902100E17AE8 /* Kingfisher */; };
+		DE27CD0428A0902E00E17AE8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DE27CD0328A0902E00E17AE8 /* Alamofire */; };
+		DE27CD0728A0904A00E17AE8 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = DE27CD0628A0904A00E17AE8 /* SwiftyJSON */; };
+		DE27CD0928A090CB00E17AE8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE27CD0828A090CB00E17AE8 /* .gitignore */; };
+		DE27CD0B28A0910C00E17AE8 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CD0A28A0910C00E17AE8 /* APIKey.swift */; };
+		DE27CD0E28A0949900E17AE8 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CD0D28A0949900E17AE8 /* Endpoint.swift */; };
+		DE27CD1028A0951700E17AE8 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CD0F28A0951700E17AE8 /* URL+Extension.swift */; };
+		DE27CD1228A0A78600E17AE8 /* KakaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CD1128A0A78600E17AE8 /* KakaoAPIManager.swift */; };
+		DE27CD1428A0ABEB00E17AE8 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CD1328A0ABEB00E17AE8 /* ClosureViewController.swift */; };
+		DEB8273F28A1E03E00A31BD7 /* SeSACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8273E28A1E03E00A31BD7 /* SeSACButton.swift */; };
+		DEB8274128A1E60600A31BD7 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB8274028A1E60600A31BD7 /* CardView.xib */; };
+		DEB8274328A1E62C00A31BD7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8274228A1E62C00A31BD7 /* CardView.swift */; };
+		DEB8274628A1F37F00A31BD7 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8274428A1F37F00A31BD7 /* CardCollectionViewCell.swift */; };
+		DEB8274728A1F37F00A31BD7 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB8274528A1F37F00A31BD7 /* CardCollectionViewCell.xib */; };
+		DEB8274928A1F63B00A31BD7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8274828A1F63B00A31BD7 /* MainViewController.swift */; };
+		DEB8274B28A1FC2700A31BD7 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8274A28A1FC2700A31BD7 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,19 @@
 		DE27CCF428A08FE400E17AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE27CCF728A08FE400E17AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE27CCF928A08FE400E17AE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE27CD0828A090CB00E17AE8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DE27CD0A28A0910C00E17AE8 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		DE27CD0D28A0949900E17AE8 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		DE27CD0F28A0951700E17AE8 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		DE27CD1128A0A78600E17AE8 /* KakaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPIManager.swift; sourceTree = "<group>"; };
+		DE27CD1328A0ABEB00E17AE8 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		DEB8273E28A1E03E00A31BD7 /* SeSACButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACButton.swift; sourceTree = "<group>"; };
+		DEB8274028A1E60600A31BD7 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		DEB8274228A1E62C00A31BD7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DEB8274428A1F37F00A31BD7 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEB8274528A1F37F00A31BD7 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		DEB8274828A1F63B00A31BD7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = View/MainViewController.swift; sourceTree = "<group>"; };
+		DEB8274A28A1FC2700A31BD7 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTableViewCell.swift; path = SeSAC6/MainTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE27CD0728A0904A00E17AE8 /* SwiftyJSON in Frameworks */,
+				DE27CD0128A0902100E17AE8 /* Kingfisher in Frameworks */,
+				DE27CD0428A0902E00E17AE8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +72,7 @@
 		DE27CCDF28A08FE300E17AE8 = {
 			isa = PBXGroup;
 			children = (
+				DE27CD0828A090CB00E17AE8 /* .gitignore */,
 				DE27CCEA28A08FE300E17AE8 /* SeSAC6 */,
 				DE27CCE928A08FE300E17AE8 /* Products */,
 			);
@@ -56,15 +89,43 @@
 		DE27CCEA28A08FE300E17AE8 /* SeSAC6 */ = {
 			isa = PBXGroup;
 			children = (
+				DE27CD0A28A0910C00E17AE8 /* APIKey.swift */,
+				DE27CD0C28A0948A00E17AE8 /* Network */,
 				DE27CCEB28A08FE300E17AE8 /* AppDelegate.swift */,
+				DEB8273D28A1DFF800A31BD7 /* View */,
 				DE27CCED28A08FE300E17AE8 /* SceneDelegate.swift */,
 				DE27CCEF28A08FE300E17AE8 /* ViewController.swift */,
 				DE27CCF128A08FE300E17AE8 /* Main.storyboard */,
+				DEB8274828A1F63B00A31BD7 /* MainViewController.swift */,
+				DE27CD1328A0ABEB00E17AE8 /* ClosureViewController.swift */,
 				DE27CCF428A08FE400E17AE8 /* Assets.xcassets */,
 				DE27CCF628A08FE400E17AE8 /* LaunchScreen.storyboard */,
 				DE27CCF928A08FE400E17AE8 /* Info.plist */,
 			);
 			path = SeSAC6;
+			sourceTree = "<group>";
+		};
+		DE27CD0C28A0948A00E17AE8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DE27CD0D28A0949900E17AE8 /* Endpoint.swift */,
+				DE27CD0F28A0951700E17AE8 /* URL+Extension.swift */,
+				DE27CD1128A0A78600E17AE8 /* KakaoAPIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DEB8273D28A1DFF800A31BD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEB8274A28A1FC2700A31BD7 /* MainTableViewCell.swift */,
+				DEB8273E28A1E03E00A31BD7 /* SeSACButton.swift */,
+				DEB8274228A1E62C00A31BD7 /* CardView.swift */,
+				DEB8274028A1E60600A31BD7 /* CardView.xib */,
+				DEB8274428A1F37F00A31BD7 /* CardCollectionViewCell.swift */,
+				DEB8274528A1F37F00A31BD7 /* CardCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +144,11 @@
 			dependencies = (
 			);
 			name = SeSAC6;
+			packageProductDependencies = (
+				DE27CD0028A0902100E17AE8 /* Kingfisher */,
+				DE27CD0328A0902E00E17AE8 /* Alamofire */,
+				DE27CD0628A0904A00E17AE8 /* SwiftyJSON */,
+			);
 			productName = SeSAC6;
 			productReference = DE27CCE828A08FE300E17AE8 /* SeSAC6.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,11 @@
 				Base,
 			);
 			mainGroup = DE27CCDF28A08FE300E17AE8;
+			packageReferences = (
+				DE27CCFF28A0902100E17AE8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				DE27CD0228A0902E00E17AE8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DE27CD0528A0904A00E17AE8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = DE27CCE928A08FE300E17AE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +196,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE27CD0928A090CB00E17AE8 /* .gitignore in Resources */,
 				DE27CCF828A08FE400E17AE8 /* LaunchScreen.storyboard in Resources */,
+				DEB8274128A1E60600A31BD7 /* CardView.xib in Resources */,
 				DE27CCF528A08FE400E17AE8 /* Assets.xcassets in Resources */,
+				DEB8274728A1F37F00A31BD7 /* CardCollectionViewCell.xib in Resources */,
 				DE27CCF328A08FE300E17AE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB8274B28A1FC2700A31BD7 /* MainTableViewCell.swift in Sources */,
 				DE27CCF028A08FE300E17AE8 /* ViewController.swift in Sources */,
 				DE27CCEC28A08FE300E17AE8 /* AppDelegate.swift in Sources */,
+				DE27CD1428A0ABEB00E17AE8 /* ClosureViewController.swift in Sources */,
+				DEB8274928A1F63B00A31BD7 /* MainViewController.swift in Sources */,
+				DEB8274628A1F37F00A31BD7 /* CardCollectionViewCell.swift in Sources */,
+				DE27CD0B28A0910C00E17AE8 /* APIKey.swift in Sources */,
+				DEB8274328A1E62C00A31BD7 /* CardView.swift in Sources */,
 				DE27CCEE28A08FE300E17AE8 /* SceneDelegate.swift in Sources */,
+				DEB8273F28A1E03E00A31BD7 /* SeSACButton.swift in Sources */,
+				DE27CD1228A0A78600E17AE8 /* KakaoAPIManager.swift in Sources */,
+				DE27CD0E28A0949900E17AE8 /* Endpoint.swift in Sources */,
+				DE27CD1028A0951700E17AE8 /* URL+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +440,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE27CCFF28A0902100E17AE8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		DE27CD0228A0902E00E17AE8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		DE27CD0528A0904A00E17AE8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE27CD0028A0902100E17AE8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE27CCFF28A0902100E17AE8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DE27CD0328A0902E00E17AE8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE27CD0228A0902E00E17AE8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DE27CD0628A0904A00E17AE8 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE27CD0528A0904A00E17AE8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE27CCE028A08FE300E17AE8 /* Project object */;
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE048FD928A493A00017C605 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE048FD828A493A00017C605 /* MapViewController.swift */; };
 		DE27CCEC28A08FE300E17AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CCEB28A08FE300E17AE8 /* AppDelegate.swift */; };
 		DE27CCEE28A08FE300E17AE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CCED28A08FE300E17AE8 /* SceneDelegate.swift */; };
 		DE27CCF028A08FE300E17AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27CCEF28A08FE300E17AE8 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE048FD828A493A00017C605 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DE27CCE828A08FE300E17AE8 /* SeSAC6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE27CCEB28A08FE300E17AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE27CCED28A08FE300E17AE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				DEE0E21F28A3305F00B77CBC /* Protocol */,
 				DE27CCEF28A08FE300E17AE8 /* ViewController.swift */,
 				DE27CCF128A08FE300E17AE8 /* Main.storyboard */,
+				DE048FD828A493A00017C605 /* MapViewController.swift */,
 				DEB8274828A1F63B00A31BD7 /* MainViewController.swift */,
 				DE27CD1328A0ABEB00E17AE8 /* ClosureViewController.swift */,
 				DE27CCF428A08FE400E17AE8 /* Assets.xcassets */,
@@ -241,6 +244,7 @@
 				DE27CD0E28A0949900E17AE8 /* Endpoint.swift in Sources */,
 				DEE0E22528A3441700B77CBC /* TMDBAPIManager.swift in Sources */,
 				DE27CD1028A0951700E17AE8 /* URL+Extension.swift in Sources */,
+				DE048FD928A493A00017C605 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -370,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -387,6 +391,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DV7XBU83N5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSAC6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -414,6 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DV7XBU83N5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSAC6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

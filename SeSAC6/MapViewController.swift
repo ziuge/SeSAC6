@@ -52,10 +52,6 @@ class MapViewController: UIViewController {
         let region = MKCoordinateRegion(center: center, latitudinalMeters: 1000, longitudinalMeters: 1000)
         mapView.setRegion(region, animated: true)
         
-        
-        
-        
-        
         let annotation = MKPointAnnotation()
         annotation.coordinate = center
         annotation.title = "이곳은.. 영등포 캠퍼스"
@@ -77,6 +73,7 @@ extension MapViewController: CLLocationManagerDelegate {
         
         if let coordinate = locations.last?.coordinate {
             setRegionAndAnnotation(center: coordinate)
+            // 날씨 정보 API 요청
         }
         
         // 위치 업데이트 멈추기
